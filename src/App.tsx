@@ -1,5 +1,11 @@
+import Gallery from "./components/Gallery/Gallery";
+
 function App() {
-  return <div></div>;
+  return (
+    <>
+      <Gallery></Gallery>
+    </>
+  );
 }
 
 export default App;

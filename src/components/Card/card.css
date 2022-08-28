@@ -1,0 +1,11 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #333;
+}
+
+.bg {
+  background-color: rgba(0, 0, 255, 0.3);
+  border-color: rgba(0, 0, 255, 0.5);
+}
