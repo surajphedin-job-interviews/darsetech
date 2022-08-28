@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.root > ul {
+  list-style: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 32px;
+}
+
+.root > ul > li {
+  display: flex;
+  gap: 12px;
+  margin: 8px 0px;
+}
+
+.root > ul > li > p:first-child {
+  width: 120px;
+  font-weight: bold;
+}
