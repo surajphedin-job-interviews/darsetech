@@ -1,0 +1,22 @@
+.introduction {
+  display: grid;
+  gap: 32px;
+  transition: 2s;
+}
+
+.introduction .title {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.introduction .info {
+  font-size: 20px;
+  color: #333;
+}
+
+.introduction button {
+  width: 200px;
+  background-color: #5256e0;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

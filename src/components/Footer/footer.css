@@ -1,0 +1,22 @@
+footer {
+  padding: 24px 0px;
+  display: grid;
+  justify-content: center;
+}
+
+footer p:first-child {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+footer .icon_wrapper {
+  margin: 24px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+footer .icon_wrapper svg {
+  font-size: 24px;
+  color: black;
+}
