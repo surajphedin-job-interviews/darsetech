@@ -2,5 +2,43 @@
   padding: 32px;
   display: grid;
   gap: 16px;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.root > div {
+  display: grid;
+  gap: 16px;
+  align-content: flex-start;
+}
+
+.root > div:first-child {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.root > div:first-child > div {
+  display: grid;
+  gap: 16px;
+  align-content: flex-start;
+}
+
+.root > div:last-child {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.minus_margin_top {
+  margin-top: -80px;
+}
+
+@media (min-width: 1000px) {
+  .root {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .root > div:last-child {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .minus_margin_top {
+    margin-top: 0px;
+  }
 }
